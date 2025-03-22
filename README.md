@@ -20,14 +20,14 @@ A feature-rich text editor built using **React, Vite, TipTap, and TailwindCSS**.
 
 ## 💻 Setup Instructions  
 
-1.**Clone the repository**  
-    ```sh
-    git clone https:https://github.com/Supiyasingh/text-editor.git
-    cd text-editor
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/Supiyasingh/text-editor.git
+   cd text-editor
    
 2.**Install dependencies**
     ```sh
-   npm install
+    npm install
 
 
 3.**Start the development server**

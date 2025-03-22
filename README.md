@@ -1,12 +1,39 @@
-# React + Vite
+# Rich Text Editor  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich text editor built using **React, Vite, TipTap, and TailwindCSS**. It supports common text formatting options and allows users to insert custom variables dynamically.  
 
-Currently, two official plugins are available:
+## 🚀 Features  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Text Formatting** - Bold, Italic, Headings, Lists, and more  
+✅ **Custom Variables** - Insert predefined variables using `{{`  
+✅ **Popover Trigger** - Displays available variables dynamically  
+✅ **Styled Variables** - Highlighted tokens within the editor  
+✅ **Export Options** - Supports exporting raw and rendered content  
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, TipTap  
+- **Styling:** TailwindCSS  
+- **Build Tool:** Vite  
+- **Language:** TypeScript  
+
+## 📁 Folder Structure  
+
+📂 src
+ ┣ 📂 components
+ ┃ ┣ 📜 Editor.jsx
+ ┃ ┣ 📜 VariablePopover.jsx
+ ┃ ┣ 📜 VariableToken.jsx
+ ┃ ┣ 📜 Toolbar.jsx
+ ┣ 📂 data
+ ┃ ┗ 📜 variables.js
+ ┣ 📜 App.jsx
+ ┣ 📜 main.jsx
+ ┗ 📜 index.css
+
+## 💻 Setup Instructions  
+
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/yourusername/rich-text-editor.git
+   cd text-editor

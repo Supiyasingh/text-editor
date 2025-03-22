@@ -15,7 +15,7 @@ A feature-rich text editor built using **React, Vite, TipTap, and TailwindCSS**.
 - **Frontend:** React, TipTap  
 - **Styling:** TailwindCSS  
 - **Build Tool:** Vite  
-- **Language:** TypeScript  
+
 
 
 ## 💻 Setup Instructions  

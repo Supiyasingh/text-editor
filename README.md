@@ -25,9 +25,9 @@ A feature-rich text editor built using **React, Vite, TipTap, and TailwindCSS**.
    git clone https://github.com/Supiyasingh/text-editor.git
    cd text-editor
    
-2.**Install dependencies**
-    ```sh
-    npm install
+2. **Install dependencies**
+   ```sh
+   npm install
 
 
 3.**Start the development server**

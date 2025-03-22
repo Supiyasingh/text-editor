@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.prose {
+  min-height: 200px;
+}
